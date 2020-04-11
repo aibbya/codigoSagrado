@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codigos Sagrados</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.13.2/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/7.13.2/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.13.2/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.13.2/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.13.2/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+
+  <style media="screen">
+    body {
+      background: #ECEFF1;
+      color: rgba(0, 0, 0, 0.87);
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 2px;
+    }
+
+    #formulario {
+      background: white;
+      max-width: 360px;
+      margin: 10px auto 16px;
+      /* padding: 32px 24px; */
+      border-radius: 3px;
+      text-align: center;
+    }
+
+    #contenedor {
+      background: white;
+      max-width: 360px;
+      margin: auto;
+      padding: 25px 25px;
+      border-radius: 3px;
+      border: solid purple;
+      
+    }
+
+    #sectionOracion {
+      background: white;
+      max-width: 360px;
+      margin: 100px auto 16px;
+      /* padding: 32px 24px; */
+      border-radius: 3px;
+    }
+
+    #contenedor h2 {
+      color: #a665fa;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 0 8px;
+    }
+
+    #message h1,
+    h2,
+    h3 {
+      font-size: 22px;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0 0 16px;
+      text-align: center;
+    }
+
+    #message p {
+      line-height: 140%;
+      margin: 16px 0 24px;
+      font-size: 14px;
+      text-align: justify;
+
+    }
+
+    #oracion {
+      display: block;
+      text-align: center;
+      background: rgb(167, 167, 248);
+      /* text-transform: uppercase; */
+      text-decoration: none;
+      color: white;
+      padding: 16px;
+      border-radius: 4px;
+    }
+
+    #contRepe {
+      /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+      color: black;
+      text-align: center;
+      height: 20%;
+    }
+
+    #sectionReiniciar {
+      color: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    #sectionOracion {
+      color: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      /* font-size: ; */
+    }
+
+    #codigoS {
+      color: black;
+      text-align: center;
+      height: 80%;
+      /* font-size: ; */
+    }
+
+    #conteo {
+      /* display: flexbox; */
+      align-items: center;
+      justify-content: center;
+      background-color: pink;
+      /* margin: 10% 10% 10% 10% */
+      
+    }
+
+    #cod{
+      font-size: 70px;
+      margin-top: 30px;
+    }
+
+
+
+    @media (max-width: 600px) {
+
+      body {
+        margin-top: 5px;
+        background: white;
+        box-shadow: none;
+        padding: 20px;
+      }
+
+      ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+      }
+
+      button {
+        margin-top: 5px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="message">
+    <h1>
+      <strong>CODIGOS SAGRADOS</strong>
+    </h1>
+    <p class="text-justify">
+      Los códigos sagrados son una especie de oración con números, que conectan rápidamente con los seres de luz. <br>
+      Son un recurso de emergencia que La Divinidad ha dejado reservados para los momentos más difíciles que toquen
+      atravesar. Responden a una matemática de otra dimensión, y, básicamente, son números que mueven determinadas
+      energías.
+    </p>
+    <h3 data-toggle="collapse" id="controlInstrucciones" data-target="#instrucciones" aria-expanded="true"
+      aria-controls="instrucciones">
+      ¿Como se deben usar los codigos?</h3>
+    <div id="instrucciones" class="collapse text-justify" data-parent="#message">
+      <ul>
+        <ol>
+          <li>Los Códigos <strong>repetirse 45 veces </strong> cada vez, porque este es un número de manifestación.</li>
+          <li>Pueden <strong>decirse de cualquier forma</strong> como una sola cifra (p. ej. 10243 diez mil doscientos
+            cuarenta y tres), de uno en uno (uno,cero, dos, cuatro, tres); de dos en dos o como les nazca del corazón,
+            <strong> NO HAY REGLAS PARA ESO</strong>.</li>
+          <li>Ayuda mucho un collar o una cuerda con 45 bolitas o nudos, ó <blockquote><strong> USA ESTE
+                CONTADOR,</strong></blockquote> coloca el nombre de la persona a la que queires activarle este codigo, y
+            el codigo que queires activar.</li>
+          <li>El número de días que los hagan depende de ustedes, generalmente se hacen hasta que se manifieste lo que
+            estamos pidiendo, hay otros códigos como conexión con la Tierra, etc. que sería maravilloso hacerlos
+            siempre.</li>
+          <li>Pueden hacerse a cualquier hora y en cualquier lugar.</li>
+          <li>Los seres de Luz no necesitan rituales de ningún tipo para ser escuchados, sin embargo, si a alguien le
+            nace encender una vela, un incienso, poner música, etc. eso queda a discreción de cada quien.</li>
+          <li>Se pueden repetir cuantas veces al día gusten, y cuantos códigos deseen, tampoco hay ninguna norma.</li>
+          <li>Pueden decir el código mentalmente o usando la voz. Si se acostumbran a la vibración de estos números,
+            sintonizarán con Dimensiones Superiores y desarrollarán facultades psíquicas como la telepatía, la
+            clarividencia y la intuición.</li>
+          <li>De vez en cuando encontrarán códigos repetidos, esto no es un error; Lo que sucede es que hay Códigos con
+            varias funciones.</li>
+          <li>Los Códigos pueden hacerse por otras personas. Solo es usar la intención y decir: Aplico este Código
+            por……… (nombre y apellidos). El Alma del receptor recibirá la vibración y la aplicará como más convenga.
+          </li>
+        </ol>
+      </ul>
+
+    </div>
+    <h3 data-toggle="collapse" id="controlMasUsados" data-target="#masUsados" aria-expanded="false"
+      aria-controls="masUsados">
+      Algunos códigos más usados (top 15)
+    </h3>
+    <div id="masUsados" class="collapse text-justify" data-parent="#message">
+      <p>
+        <ul>
+          <ol>
+            <li><strong>3333</strong>- Agradecimiento por bendiciones</li>
+            <li><strong>454545</strong>- Empleo nuevo (Importante es aclarar qué tipo de empleo)</li>
+            <li><strong>9</strong>- Superar depresiones</li>
+            <li><strong>26</strong>- Eliminar energias negativas</li>
+            <li><strong>79</strong>- Prosperidad</li>
+            <li><strong>100</strong>- Dinero (usar en casos apremiantes)</li>
+            <li><strong>128</strong>- Sanar Salud</li>
+            <li><strong>133</strong>- Llamar riqueza</li>
+            <li><strong>199</strong>- Eliminar dolor de cabeza</li>
+            <li><strong>584</strong>- Perfecto orden divino</li>
+            <li><strong>613</strong>- San Miguel Protección</li>
+            <li><strong>816</strong>- Evitar trampas y engaños</li>
+            <li><strong>900</strong>- Salud y vitalidad</li>
+            <li><strong>1111</strong>- Nuevas oportunidades</li>
+            <li><strong>33388</strong>- Protección</li>
+          </ol>
+        </ul>
+    </div>
+
+    </p>
+
+
+  </div>
+
+  <div id="root">
+    <div id="inicio">
+      <form id="formulario" class="form-control form-control-sm" style="border: solid red;">
+        <h3>Completa para activar un codigo</h3>
+
+        <div class="form-group justify-content>
+          <div class="">
+            <label for=" nombre"> Nombre </label>
+          <input type="text" id="nombre" aria-describedby="nombre de la persona a quien activarle el codigo"
+            placeholder="¿Quien lo necesita?">
+        </div>
+        <div>
+          <label for="codigoSagrado">Codigo Sagrado: </label>
+          <input type="number" id="codS"></textarea>
+        </div>
+        <button class="btn " type="button" id="btnActivar">Activar</button>
+      </form>
+      <div id="sectionOracion" style="display: none;">
+        <div id="enNombrede"></div>
+        <div id="oracion"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contenedor" style="display: none;">
+
+    <div id="conteo" class="" onclick="contar()" style="height: 150px;">
+      <div id="codigoS" class="" ></div>
+      <p id="contRepe"></p>
+    </div>
+  </div>
+  <div class="p-3" id="sectionReiniciar" style="display: none;">
+    <button class="btn mt-2" type="button" id="btnReiniciar">Reiniciar</button>
+  </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.13.2/firebase-app.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>

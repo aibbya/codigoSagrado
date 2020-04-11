@@ -1,0 +1,15 @@
+
+
+#contenedor {
+    border: solid;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+
+    
+}
+
+
+
