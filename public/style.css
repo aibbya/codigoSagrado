@@ -1,5 +1,3 @@
-
-
 #contenedor {
     border: solid;
     display: flexbox;
@@ -7,9 +5,141 @@
     justify-content: center;
     height: 80%;
     width: 80%;
+    /* background-color: white; */
+    max-width: 360px;
+    margin: auto;
+    padding: 25px 25px;
+    border-radius: 3px;
+    border: solid purple;
 
-    
+
+}
+#message{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body {
+    background:  rgb(216, 151, 216);
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px;
+}
+
+#formulario {
+    background: white;
+    max-width: 360px;
+    margin: 10px auto 16px;
+    /* padding: 32px 24px; */
+    border-radius: 3px;
+    text-align: center;
 }
 
 
 
+#sectionOracion {
+    background: white;
+    max-width: 360px;
+    margin: 100px auto 16px;
+    /* padding: 32px 24px; */
+    border-radius: 3px;
+}
+
+#contenedor h2 {
+    color: #a665fa;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+#message h1,
+h2,
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+#message p {
+    line-height: 140%;
+    margin: 16px 0 24px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+#oracion {
+    display: block;
+    text-align: center;
+    background: rgb(167, 167, 248);
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+#contRepe {
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
+    color: black;
+    text-align: center;
+    height: 20%;
+}
+
+#sectionReiniciar {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+}
+
+#sectionOracion {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    /* font-size: ; */
+}
+
+#codigoS {
+    color: black;
+    text-align: center;
+    height: 80%;
+    /* font-size: ; */
+}
+
+#conteo {
+    /* display: flexbox; */
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    /* margin: 10% 10% 10% 10% */
+
+}
+
+#cod {
+    font-size: 350%;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        margin-top: 5px;
+        background: white;
+        box-shadow: none;
+        padding: 20px;
+    }
+
+    ul {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+
+}

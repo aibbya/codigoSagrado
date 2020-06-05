@@ -17,8 +17,6 @@ var contador = 1
 btnActivar.addEventListener("click", function (){
     var txtNombre = nombre.value; 
     var txtCodigoActivado = codigoActivado.value;   
-    console.log("btnActivar")
-    console.log("en nombre de"+ txtNombre);
     formulario.style.display = "none";
     sectionOracion.style.display= "block";
     contenedor.style.display= "block";
@@ -27,7 +25,7 @@ btnActivar.addEventListener("click", function (){
     oracion.appendChild(oEsp)
     var rellenaEnNombre= document.createTextNode("Activo este Codigo Sagrado en nombre de: "+txtNombre+"");
     enNombre.appendChild(rellenaEnNombre)
-    console.log(txtCodigoActivado);
+    
     
     document.getElementById("codigoS").innerHTML = "Activarás el codigo <br><strong>"+txtCodigoActivado+"</strong> <br> haz click en el recuadro para iniciar el contador, con cada click repite el codigo hasta culminar la cuenta";
     message.style.display = "none"    
@@ -35,21 +33,19 @@ btnActivar.addEventListener("click", function (){
 
 function contar() {
     if (contador == 11 || contador == 21 || contador == 31 || contador == 41){
-        alert("Haz una pausa para agradecer y sentir tu deseo hecho realidad y repite 'Gracias, Gracias, Gracias por escucharme'")
+        Swal.fire("Haz una pausa para agradecer y sentir tu deseo hecho realidad y repite 'Gracias, Gracias, Gracias por escucharme'")
     }
     if (contador == 46) {
-        alert("repite 'Gracias Gracias Gracias porque hecho está' y permitete sentir la plenitud de vivir tu deseo")
+        Swal.fire("repite 'Gracias Gracias Gracias porque hecho está' y permitete sentir la plenitud de vivir tu deseo")
         contador = 0
         reiniciar()
     }
 
     var txtCodigoActivado = codigoActivado.value;
-    console.log(txtCodigoActivado);
+   
     document.getElementById("codigoS").innerHTML = "Activaste el codigo <br><strong id='cod'>"+txtCodigoActivado+"</strong>";
     contRepe.innerHTML = "conteo número " + contador;
-    contador++
-    console.log(contador);
-    
+    contador++   
         
 }
 
